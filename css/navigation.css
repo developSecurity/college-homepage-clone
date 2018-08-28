@@ -1,0 +1,10 @@
+.swipe_box {
+    background-color: bisque;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 130px;
+    margin-top: 30px;
+}

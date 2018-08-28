@@ -6,34 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>신구대학교 인포21 - 로그인</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <!-- 제목 -->
 <header>
-    <div class="title">신구대학교 통합로그인센터</div>
-    <div class="title_small">통합로그인 센터에 오신 것을 환영합니다.</div>
+    <h2 class="title">신구대학교 통합로그인센터</h2>
+    <h4 class="title_small">통합로그인 센터에 오신 것을 환영합니다.</h4>
 </header>
 
 <!-- 메인화면 -->
 <main>
-  <section>
+  <section class="main_box">
       <img src="" alt="">
-      <div class="id_security">공인인증서 로그인</div>
-      <div>
-          <p class="id_security-explanation">공인인증서 등록 후 사용할 수 있습니다.</p>
-          <img src="" alt="">
+      <div class="id_security">
+        <i class="fas fa-lock fa-blogger"></i> 
+        공인인증서 로그인
+      </div>
+      
+      <div class="id_security-explanation">공인인증서 등록 후 사용할 수 있습니다.</div>
+      <div class="id_security-explanation_info">
+          <i class="fas fa-question-circle"></i>
             공인인증서 안내
       </div>
-
-      <p class="id_login-name">아이디 로그인</p>
-      <div class="id_login">
-          <input type="text" name="id_login-text" value="아이디를 입력하세요.">
-          <input type="text" name="passwd-text" value="비밀번호를 입력하세요.">
+      <div class="vertical-line" style="height: 45px;"></div>
+      <div class="id_login"> 아이디 로그인 </div>
+      <div class="id_login-window">
+          <input type="text" value="아이디를 입력하세요.">
+      </div>
+      <div class="passwd_login">
+          <input type="text" value="비밀번호를 입력하세요.">
       </div>
       <div class="id_login-box">로그인</div>
       <div>
-       <input type="checkbox" name="checkbox_id-storage">
+       <input type="checkbox" id="checkbox_id-storage">
        <label for="checkbox_id-storage">아이디 저장</label>
       </div>
        <div class="question">
@@ -50,44 +57,56 @@
   <nav class="swipe-animation">
     <div class="swipe_box">
     
-
-        <div class="left-arrow ">
+        <div class="left-arrow "> 
           <i class="fas fa-angle-left fa-3x"></i>
         </div>
 
-           <a href="">
+           <div class="staff-proof_center">
              <i class="fa"></i>
-             <span class="staff-proof-name">교직원 증명발급센터</span>
-           </a>
+           </div>
+           <div class="staff-proof_center">
+             <span class="staff-proof-text">교직원 증명발급센터</span>
+           </div>
 
-           <a href="">
+          <div class="big-mail_survey">
             <i class="far fa-file-alt fa-2x"></i>
-            <span class="big-mail_survey">대량메일, 설문</span>
-           </a>
+          </div>
+          <div class="big-mail_survey">
+            <span class="big_mail-text">대량메일, 설문</span>
+          </div>
 
-          <a href="">
-           <i class="fas fa-book fa-2x"></i>
-           <span class="library-name">신구대학교 도서관</span>
-          </a>
+           <div class="library">
+            <i class="fas fa-book fa-2x"></i>
+           </div>
+           <div class="library">
+            <span class="library-text">신구대학교 도서관</span>
+           </div>
 
-          <a href="">
+          <div class="shingu-homepage">
            <i class="fas fa-home fa-2x"></i>
-           <span class="singu-homepage">홈페이지</span>
-          </a>
+          </div>
+          <div class="shingu-homepage">
+           <span class="shingu-homepage-text">홈페이지</span>
+          </div>
 
-          <a href="">
+          <div class="college-student_center">
            <i class="far fa-user fa-2x"></i>
-           <span class="college-student">학생 증명발급센터</span>
-          </a>
-
-          <a href="">
+          </div>
+          <div class="college-student_center">
+           <span class="college-student_center-text">학생 증명발급센터</span>
+          </div>
+          
+          <div class="college-student">
             <i class="far fa-address-card fa-2x"></i>
-            <span class="college-student">학생증 발급</span>
-          </a>
-
+          </div>
+          <div class="college-student">
+            <span class="college-student-text">학생증 발급</span>
+          </div>
+          
           <div class="right-arrow fa-3x">
             <i class="fas fa-angle-right"></i>   
           </div>
+
       </div>
     </div>
  </nav>
@@ -97,6 +116,12 @@
   <span class="make-introdution">
       COPTRIGHT SHINGU UNIVERSITY ALL RIGHTS RESERVED MADE IN KIM SEUNG WON
   </span>
+  <div class="login_introdution">
+    <span class="login_introdution-guid">로그인 안내</span>
+  </div>
+  <div class="user-info_introdution">
+    <span class="user-info_guid">개인정보 방침</span>
+  </div>
 </footer>
 </body>
 </html>

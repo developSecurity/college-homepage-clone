@@ -1,0 +1,11 @@
+.title {
+    font-size: 50px;
+    display: flex;
+    padding-left: 25%;
+}
+
+.title_small {
+    font-size: 20px;
+    display:flex;
+    padding-left: 35%;
+}
